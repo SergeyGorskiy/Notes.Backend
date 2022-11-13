@@ -31,6 +31,7 @@ namespace Notes.WebApi
 
             services.AddApplication();
             services.AddPersistence(Configuration);
+            services.AddControllers();
 
             services.AddCors(options =>
             {
